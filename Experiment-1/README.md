@@ -22,4 +22,4 @@ System.out.println("boolean:"+bool);
 }
 ```
 > #output
-![screenshot](exp_1a_output.png)
+![output](output.txt)
