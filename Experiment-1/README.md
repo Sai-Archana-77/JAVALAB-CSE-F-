@@ -25,6 +25,7 @@ System.out.println("boolean:"+bool);
 <img width="1366" height="768" alt="Exp1a" src="https://github.com/user-attachments/assets/f8496ffd-fe78-4730-b77f-862697d04508" />
 
 ## TITLE: 1b.) Display the quadratic roots
+```
 import java.util.Scanner ;
 
 public class task2{
@@ -58,5 +59,6 @@ sc.close();
 }
 }
 
+```
 >#output
 <img width="1366" height="768" alt="Exp1b" src="https://github.com/user-attachments/assets/49324e65-c8b2-45ab-8110-6b281f4c338c" />
