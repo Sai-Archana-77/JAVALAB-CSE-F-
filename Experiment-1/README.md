@@ -22,6 +22,4 @@ System.out.println("boolean:"+bool);
 }
 ```
 > #output
-![screenshot](<img width="1366" height="768" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/be569502-0fc6-4ac2-b022-1554ac12737b" />
-)
 <img width="1366" height="768" alt="Exp1a" src="https://github.com/user-attachments/assets/f8496ffd-fe78-4730-b77f-862697d04508" />
