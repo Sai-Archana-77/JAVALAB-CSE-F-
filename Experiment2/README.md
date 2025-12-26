@@ -48,3 +48,32 @@ System.out.println("Addtion of doubles: " + obj.add(2.5, 3.5));
 >#output
 
 <img width="1366" height="768" alt="Exp2b" src="https://github.com/user-attachments/assets/aea2ed91-ab64-4210-a059-43bab440c855" />
+
+##TITLE: 2c.)Display the studentconstructor
+```
+class studentconstructor {
+int id;
+String name;
+studentconstructor(int i, String n,int m)
+{
+id = i;
+name = n;
+marks = m;
+}
+void display() {
+System.out.println("student ID:" + id);
+System.out.println("student Name:" + name);
+System.out.pintln("Marks:" +marks);
+}
+public static void main(String[] args){
+studentconstructor s1 = new studentconstructor(101, "sai", 90);
+studentconstructor s2 = new studentconstructor(102, "archana", 95);
+s1.display();
+s2.display();
+}
+}
+
+```
+>#output
+
+<img width="1366" height="768" alt="Exp2c" src="https://github.com/user-attachments/assets/fcb16f73-e87a-4b7e-a481-2400cdf8f41f" />
