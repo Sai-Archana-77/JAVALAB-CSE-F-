@@ -23,3 +23,40 @@ System.out.println("boolean:"+bool);
 ```
 > #output
 <img width="1366" height="768" alt="Exp1a" src="https://github.com/user-attachments/assets/f8496ffd-fe78-4730-b77f-862697d04508" />
+
+## TITLE: 1b.) Display the quadratic roots
+import java.util.Scanner ;
+
+public class task2{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+double a,b,c;
+System.out.println("Enter a,b,c values:");
+a = sc.nextDouble();
+b = sc.nextDouble();
+c = sc.nextDouble();
+
+double D = b*b - 4*a*c;
+
+if (D > 0){
+double x1 = (-b + Math.sqrt(D)) / (2 * a);
+double x2 = (-b - Math.sqrt(D)) / (2 * a);
+System.out.println("Roots are Real and Distinct");
+System.out.println("x1 = " + x1 + ",x2= " + x2);
+} else if (D == 0) {
+double x = -b / (2 * a);
+System.out.println("Roots are Real and Equal");
+System.out.println("x = "+ x);
+} else {
+double real = -b / (2 * a);
+double img = Math.sqrt(-D) / (2 * a);
+System.out.println("Roots are complex");
+System.out.println("x1 = " + real + " + i" + img);
+System.out.println("x2 = " + real + " - i" + img);
+}
+sc.close();
+}
+}
+
+>#output
+<img width="1366" height="768" alt="Exp1b" src="https://github.com/user-attachments/assets/49324e65-c8b2-45ab-8110-6b281f4c338c" />
