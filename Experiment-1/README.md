@@ -61,4 +61,4 @@ sc.close();
 
 ```
 >#output
-<img width="1366" height="768" alt="Exp1b" src="https://github.com/user-attachments/assets/49324e65-c8b2-45ab-8110-6b281f4c338c" />
+<img width="1366" height="768" alt="Exp1b" src="https://github.com/user-attachments/assets/9348be8a-8c42-4296-83da-2d013494746e" />
