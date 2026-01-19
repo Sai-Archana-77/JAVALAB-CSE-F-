@@ -8,6 +8,7 @@
 ---
 
 ## SOURCE CODE:
+Fibonacciseries
 
 ```java
 
@@ -53,8 +54,7 @@ f.generate();
 }
 
 ```
+
 ## output
 <img width="1366" height="768" alt="AddExp2" src="https://github.com/user-attachments/assets/4e7358a2-9d5e-4def-9aa6-8642b9e56bb3" />
 
-
-````````
