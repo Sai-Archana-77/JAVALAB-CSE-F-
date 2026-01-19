@@ -171,7 +171,7 @@ class Main {
 
 ```
 
-## output
+#output
 <img width="1366" height="768" alt="3B" src="https://github.com/user-attachments/assets/5586203c-29ec-441b-b478-91d89a2442f4" />
 
 
