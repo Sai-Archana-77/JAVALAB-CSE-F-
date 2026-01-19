@@ -1,6 +1,17 @@
-# Experiment 1
-## TITLE: 1a.)Display the primitve datatypes
-```
+## Experiment 1
+
+## Experiment 1A
+
+## TITLE: 
+1a.)Display the primitve datatypes
+
+---
+
+## SOURCE CODE:
+primitive datatypes
+
+```java
+
 class datatypes{
 static byte b;
 static short s;
@@ -20,12 +31,24 @@ System.out.println("char:"+c);
 System.out.println("boolean:"+bool);
 }
 }
+
 ```
-> #output
+## output
 <img width="1366" height="768" alt="Exp1a" src="https://github.com/user-attachments/assets/f8496ffd-fe78-4730-b77f-862697d04508" />
 
-## TITLE: 1b.) Display the quadratic roots
-```
+
+## Experiment 1B
+
+## TITLE:
+1b.) Display the quadratic roots
+
+---
+
+## SOURCE CODE:
+qudratic roots
+
+```java
+
 import java.util.Scanner ;
 
 public class task2{
@@ -60,5 +83,5 @@ sc.close();
 }
 
 ```
->#output
+## output
 <img width="1366" height="768" alt="Exp1b" src="https://github.com/user-attachments/assets/9348be8a-8c42-4296-83da-2d013494746e" />
