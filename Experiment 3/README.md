@@ -60,7 +60,7 @@ Main java
 
 ```
 
-#output
+## output
 <img width="1366" height="768" alt="3A" src="https://github.com/user-attachments/assets/3db80b65-9b2d-4381-99b6-e37b3d97fd6b" />
 
 
@@ -147,6 +147,8 @@ class BinarySearch {
 
 ## Main.java
 
+```
+
 import java.util.Scanner;
 class Main {
 
@@ -171,7 +173,7 @@ class Main {
 
 ```
 
-#output
+## output
 <img width="1366" height="768" alt="3B" src="https://github.com/user-attachments/assets/5586203c-29ec-441b-b478-91d89a2442f4" />
 
 
