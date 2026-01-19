@@ -1,6 +1,17 @@
-#Experiment 2
-##TITLE: 2a.)Display the student
-```
+## Experiment 2
+
+## Experiment 2A
+
+## TITLE:
+2a.) Implement Class Mechanism in java
+
+---
+
+## SOURCE CODE:
+Class Mechanism
+
+```java
+
 class student {
 int id;
 String name;
@@ -20,12 +31,24 @@ s1.display();
 }
 
 ```
->#output
+
+## output
 
 <img width="1366" height="768" alt="Exp2a" src="https://github.com/user-attachments/assets/eb4044d5-a306-46d4-a132-87120e416382" />
 
-##TITLE: 2b.)Display the methodoverloading
-```
+
+## Experiment 2B
+
+## TITLE:
+2b.)Implementing  the methodoverloading in java
+
+---
+
+## SOURCE CODE:
+methodoverloading
+
+```java
+
 class Methodoverloading {
 int add(int a, int b){
 return a+b;
@@ -45,12 +68,23 @@ System.out.println("Addtion of doubles: " + obj.add(2.5, 3.5));
 }
 
 ```
->#output
+## output
 
 <img width="1366" height="768" alt="Exp2b" src="https://github.com/user-attachments/assets/aea2ed91-ab64-4210-a059-43bab440c855" />
 
-##TITLE: 2c.)Display the studentconstructor
-```
+
+## Experiment 2C
+
+## TITLE:
+2c.) Implementing the constructor in java
+
+---
+
+## SOURCE CODE:
+constructor
+
+```java
+
 class studentconstructor {
 int id;
 String name;
@@ -74,6 +108,6 @@ s2.display();
 }
 
 ```
->#output
+## output
 
 <img width="1366" height="768" alt="Exp2c" src="https://github.com/user-attachments/assets/fcb16f73-e87a-4b7e-a481-2400cdf8f41f" />
