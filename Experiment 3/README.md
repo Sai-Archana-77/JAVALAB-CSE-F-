@@ -1,7 +1,6 @@
-#Experiment - 3
+#Experiment 3
 ##Experiment 3a
-##TITLE: 
-**Implement constructor overloading in JAVA.**
+**TITLE:** Implement constructor overloading in JAVA.
 
 ---
 
@@ -34,8 +33,9 @@ class Student {
 		System.out.println("marks: "+marks);
 
 ```
-```
+
 Main java
+```
  class Main {
 
 	public static void main(String args[]) {
