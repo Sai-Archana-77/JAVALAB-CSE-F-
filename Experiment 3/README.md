@@ -1,6 +1,8 @@
-#Experiment 3A
+Experiment3a
 ##TITLE:  3a.)Implement constructor overloading in JAVA.
-###Source code:
+```
+Source code:
+```
 Student
 ```
 class Student {
@@ -28,7 +30,9 @@ class Student {
 		System.out.println("marks: "+marks);
 
 ```
-###Main java
+```
+```
+Main java
 ```
  class Main {
 
