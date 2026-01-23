@@ -66,6 +66,92 @@ class Student {
 
 
 
+## Experiment 3B
+
+## TITLE: Implement the Binary Search using java
+
+---
+
+## SOURCE CODE:
+Binary Search
+
+```
+
+import java.util.Scanner;
+
+class BinarySearch {
+
+    int list[];
+    int size;
+
+    BinarySearch(int size) {
+        list = new int[size];
+        this.size = size;
+    }
+
+    void setList() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the list items in Ascending Order.");
+
+        for (int i = 0; i < size; i++) {
+            System.out.print("Enter the value of " + (i + 1) + " item: ");
+            list[i] = sc.nextInt();
+        }
+    }
+
+    int binarySearch(int key) {
+
+        int low = 0;
+        int high = size - 1;
+
+        while (low <= high) {
+            int mid = (low + high) / 2;
+
+            if (list[mid] == key)
+                return mid;
+            else if (list[mid] < key)
+                low = mid + 1;
+            else
+                high = mid - 1;
+        }
+        return -1;
+    }
+}
+
+```
+
+## Main.java
+
+```
+
+import java.util.Scanner;
+
+class Main {
+
+    public static void main(String args[]) {
+
+        Scanner sc = new Scanner(System.in);
+
+        BinarySearch bs = new BinarySearch(10);
+        bs.setList();
+
+        System.out.print("Enter the key to search: ");
+        int key = sc.nextInt();
+
+        int index = bs.binarySearch(key);
+
+        if (index == -1)
+            System.out.println("Key item does not exist");
+        else
+            System.out.println("Key item exists at index: " + index);
+    }
+}
+
+```
+
+## OUTPUT
+<img width="1366" height="768" alt="EXP3B" src="https://github.com/user-attachments/assets/0dc52d4f-19fd-4ee6-95d0-39588cdf2b24" />
+
 
 
 
