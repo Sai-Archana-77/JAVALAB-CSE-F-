@@ -120,7 +120,7 @@ class Motorbike extends Bicycle {
 
 ```
 
-## Eletric Bikes: 
+## Electric Bikes: 
 
 ```
 
