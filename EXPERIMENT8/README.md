@@ -300,4 +300,5 @@ public class Calculate {
 ---
 
 ## OUTPUT:
+<img width="1366" height="768" alt="EXP8C" src="https://github.com/user-attachments/assets/91430392-0e76-46d8-a1c0-7f4ceb4162ca" />
 
