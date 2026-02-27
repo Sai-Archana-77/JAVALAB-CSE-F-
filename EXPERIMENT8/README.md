@@ -196,6 +196,7 @@ public class ProducerConsumer {
 ```
 
 ## OUTPUT:
+<img width="1366" height="768" alt="EXP8B" src="https://github.com/user-attachments/assets/b7e12722-598d-49bb-a0ef-b7ddb8165ee9" />
 
 
 
